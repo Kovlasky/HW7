@@ -1,10 +1,19 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         int toadEyesCount = 0;          //Жабьи глаза
         int ghoulTearsCount = 0;        //Слезы вурдалака
         int ravenBonesCount = 0;        //Кости ворона
         int dumplingsCount = 0;         //Пельмени(а почему, собственно нет? xD )
+        while () {
+            System.out.println("Выберете нужные компоненты: ");
 
+            int input = new Scanner(System.in).nextInt();
+            if(toadEyesCount + ravenBonesCount){
+                System.out.println("Эликсир зоркости");
+            }
+        }
         //todo реализовать ввод пользователем кол-ва ингредиентов.
 
         //Рецепты Эликсиров:
